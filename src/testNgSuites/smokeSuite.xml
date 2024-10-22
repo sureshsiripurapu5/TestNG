@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="smoke regression">
+    <test name="chrome tests">
+        <classes>
+            <class name="testNg.SmokeTests"></class>
+            <class name="testNg.RegressionTests"></class>
+        </classes>
+    </test>
+</suite>
