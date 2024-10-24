@@ -11,12 +11,12 @@ public class TestPriorities {
 
     }
 
-    @Test(priority = -1)
+    @Test(priority = -11)
     public void studentLogin(){
         System.out.println("student logged with valid credentials");
     }
 
-    @Test(priority = -99)
+    @Test(priority = -99999)
     public void studentAttendance(){
         System.out.println("Student attendance is 85%");
     }

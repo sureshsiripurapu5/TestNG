@@ -5,7 +5,7 @@
     <test name="chrome tests">
         <classes>
             <class name="testNg.SmokeTests"></class>
-            <class name="testNg.RegressionTests"></class>
+
         </classes>
     </test>
 </suite>
