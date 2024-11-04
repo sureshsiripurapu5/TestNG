@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="groupsProject">
+    <groups>
+        <run>
+            <include name="regression"></include>
+            <include name="paymentUpdating"></include>
+            <exclude name="registration"></exclude>
+        </run>
+    </groups>
+    
+    <test name="AT">
+        <classes>
+            <class name="testNg.GroupsTest"></class>
+            <class name="testNg.GroupTests1"></class>
+        </classes>
+        
+    </test>
+</suite>
